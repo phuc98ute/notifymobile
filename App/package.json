@@ -1,0 +1,44 @@
+{
+  "name": "yhcmutenotify",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.5",
+    "@mindinventory/react-native-tab-bar-interaction": "^1.0.3",
+    "@react-native-community/netinfo": "^4.1.5",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.24.0",
+    "native-base": "^2.13.5",
+    "prop-types": "^15.7.2",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-config": "^0.11.7",
+    "react-native-elements": "^1.1.0",
+    "react-native-firebase": "^5.5.6",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-scrollable-tab-view": "^0.10.0",
+    "react-native-simple-dialogs": "^1.2.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.12.1",
+    "react-router-native": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.2.2",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
